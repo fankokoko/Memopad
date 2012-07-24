@@ -10,6 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.widget.SimpleCursorAdapter;
 import android.content.Intent;
 
+
 public class MemoList extends ListActivity {
 	
 	public static final String[] cols = {"title", "memo", android.provider.BaseColumns._ID};
